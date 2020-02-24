@@ -5,7 +5,7 @@
     if(have_posts()){
       while(have_posts()){
         the_post(); ?>
-        <div class="col-md-6">
+        <div class="col-md-12">
           <?php the_post_thumbnail('thumbnail'); ?>
 
           <h3><?php the_title(); ?></h3>
